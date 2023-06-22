@@ -15,8 +15,6 @@ body {
 .container {
     display: flex;
     background-color: white;
-    height: 60%;
-    width: 50%;
     padding: 20px;
 
     border-radius: 20px;
@@ -24,4 +22,10 @@ body {
 
 #img img {
     height: 100%;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
